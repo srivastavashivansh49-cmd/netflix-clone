@@ -55,26 +55,18 @@ body{
     justify-content: space-between;
     padding: 5rem;
 }
-.logo-text{
-    color: rgb(229, 9, 20);
-    font-size: 2.6rem;
-    font-weight: 900;
-    letter-spacing: 1px;
+.logo{
+    width: 12rem;
 }
-
-.globe-text{
+.globe{
+    width: 1.3rem;
+    filter: invert(1);
     margin-right: .8rem;
 }
-
-.down-text{
+.down-arr{
+    width: 1.3rem;
+    filter: invert(1);
     margin-left: .6rem;
-}
-
-.next-text{
-    font-size: 2rem;
-    line-height: 1;
-    margin-left: .5rem;
-}
 
 }
 .english{
