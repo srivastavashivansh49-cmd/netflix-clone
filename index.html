@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix clone</title>
 
-    <link rel="stylesheet" href="./style.css?v=3">
+    <!-- cache busting added -->
+    <link rel="stylesheet" href="./style.css?v=2">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,13 +19,14 @@
         <div class="showcase-top">
 
             <div class="navbar">
-                <h1 class="logo-text">NETFLIX</h1>
+                <!-- use root path because files are in repo root -->
+                <img src="./netflix.png" alt="Netflix Logo" class="logo">
 
                 <div class="logo-right">
                     <button class="english">
-                        <span class="globe-text">🌐</span>
+                        <img src="./globe.png" alt="Globe Icon" class="globe">
                         <span>English</span>
-                        <span class="down-text">▾</span>
+                        <img src="./down-arrow.png" alt="Down Arrow" class="down-arr">
                     </button>
 
                     <button class="sign-in">Sign In</button>
@@ -43,7 +45,7 @@
 
                     <button class="started">
                         <span>Get Started</span>
-                        <span class="next-text">›</span>
+                        <img src="./next.png" alt="Next Arrow" class="next-arr">
                     </button>
                 </div>
             </div>
@@ -120,7 +122,7 @@
 
             <button class="started">
                 <span>Get Started</span>
-                <span class="next-text">›</span>
+                <img src="./next.png" alt="Next Arrow" class="next-arr">
             </button>
         </div>
 
